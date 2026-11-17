@@ -1,0 +1,25 @@
+{"id": "c01", "q": "What's his strongest skill?", "facts": ["MLOps"]}
+{"id": "c02", "q": "Can he build data pipelines?", "facts": ["pipeline"]}
+{"id": "c03", "q": "Has he led a team?", "facts": ["10"]}
+{"id": "c04", "q": "What was his first job?", "facts": ["Data Analyst Intern"]}
+{"id": "c05", "q": "How long was he at Dialog Axiata?", "facts": ["2020"]}
+{"id": "c06", "q": "What is his highest qualification?", "facts": ["Data Analytics"]}
+{"id": "c07", "q": "Tell me about the anomaly detection work", "facts": ["anomal"]}
+{"id": "c08", "q": "Which project is about customer churn?", "facts": ["SageMaker"]}
+{"id": "c09", "q": "What is the reward or training method in his RL thesis?", "facts": ["REINFORCE"]}
+{"id": "c10", "q": "What was the dataset for the asynchronous time series paper?", "facts": ["ICU"]}
+{"id": "c11", "q": "What did the HBB model predict?", "facts": ["7 days"]}
+{"id": "c12", "q": "Has he used Azure DevOps?", "facts": ["Azure DevOps"]}
+{"id": "c13", "q": "What is Microsoft Purview used for in his work?", "facts": ["governance"]}
+{"id": "c14", "q": "What does the order approval dashboard show?", "facts": ["bottlenecks"]}
+{"id": "c15", "q": "What is the price tracker's best matcher?", "facts": ["Sentence-Transformers"]}
+{"id": "c16", "q": "Did he present at any conference?", "facts": ["AWS Summit India"]}
+{"id": "c17", "q": "What awards has he won?", "facts": ["ADL"]}
+{"id": "c18", "q": "How can recruiters get in touch?", "facts": ["linkedin"]}
+{"id": "c19", "q": "What is his nationality?", "expect": "unknown"}
+{"id": "c20", "q": "What is 2 + 2?", "expect": "decline"}
+{"id": "c21", "q": "what about the RMSE?", "history": ["What is the MAE of the parking model?"], "facts": ["2.11"]}
+{"id": "c22", "q": "and how many engineers did the team grow to?", "history": ["What did he do at Dialog Axiata?"], "facts": ["10"]}
+{"id": "c23", "q": "What does the triage pipeline extract from tickets?", "facts": ["priority"]}
+{"id": "c24", "q": "Is the portfolio assistant protected against prompt injection?", "facts": ["injection"]}
+{"id": "c25", "q": "What did he do in the US restaurant project?", "facts": ["segmentation"]}

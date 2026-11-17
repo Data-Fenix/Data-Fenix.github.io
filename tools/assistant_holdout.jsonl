@@ -1,0 +1,20 @@
+{"id": "h01", "q": "Where does Lahiru work right now?", "facts": ["Memodo"]}
+{"id": "h02", "q": "What tools did he use for CI/CD at Dialog?", "facts": ["Docker"]}
+{"id": "h03", "q": "By how much did the experimentation framework reduce experimentation time?", "facts": ["40%"]}
+{"id": "h04", "q": "What is the R2 score of the parking model?", "facts": ["0.916"]}
+{"id": "h05", "q": "Which shops does the price tracker scrape?", "facts": ["Idealo"]}
+{"id": "h06", "q": "What traffic data was used in the thesis?", "facts": ["Beijing"]}
+{"id": "h07", "q": "Which datasets were used in the asynchronous forecasting paper?", "facts": ["ICU"]}
+{"id": "h08", "q": "Does the ticket triage project use the batch API?", "facts": ["Batch"]}
+{"id": "h09", "q": "Which universities in Sri Lanka did he attend?", "facts": ["Colombo"]}
+{"id": "h10", "q": "Is he AWS certified?", "facts": ["Machine Learning Engineer"]}
+{"id": "h11", "q": "How much did SageMaker costs drop?", "facts": ["17%"]}
+{"id": "h12", "q": "What does the governance framework he designed include?", "facts": ["11-criteria"]}
+{"id": "h13", "q": "Which project detects plant disease?", "facts": ["Potato"]}
+{"id": "h14", "q": "What is pedata?", "facts": ["protein"]}
+{"id": "h15", "q": "What did he build with Retool?", "facts": ["recruitment"]}
+{"id": "h16", "q": "Which competition team ranking did he achieve?", "facts": ["top-10"]}
+{"id": "h17", "q": "What is his phone number?", "expect": "unknown"}
+{"id": "h18", "q": "Which programming frameworks are used for deep learning in his projects?", "facts": ["PyTorch"]}
+{"id": "h19", "q": "Can you tell me a joke?", "expect": "unknown"}
+{"id": "h20", "q": "and which dataset did it use?", "history": ["Tell me about the potato leaf disease classifier"], "facts": ["PlantVillage"]}

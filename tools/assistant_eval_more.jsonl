@@ -1,0 +1,68 @@
+{"id": "d01", "q": "Total experience?", "facts": ["five and a half"]}
+{"id": "d02", "q": "How many years of experience does he have?", "facts": ["five and a half"]}
+{"id": "d03", "q": "Who is Lahiru?", "lead": ["Data Platform Engineer"]}
+{"id": "d04", "q": "Give me a short summary of Lahiru", "facts": ["MLOps"]}
+{"id": "d05", "q": "What does he do now?", "lead": ["Data Platform Engineer"]}
+{"id": "d06", "q": "Where does he work currently?", "lead": ["Memodo"]}
+{"id": "d07", "q": "What is his job title?", "lead": ["Data Platform Engineer"]}
+{"id": "d08", "q": "What are his responsibilities at Memodo?", "facts": ["Azure data platform"]}
+{"id": "d09", "q": "What chatbot did he build at Memodo?", "facts": ["natural language"]}
+{"id": "d10", "q": "What did he do in the governance working group?", "facts": ["11-criteria"]}
+{"id": "d11", "q": "How did he reduce cloud costs?", "facts": ["Savings Plans"]}
+{"id": "d12", "q": "What was his role at Fcode Labs?", "facts": ["image detection"]}
+{"id": "d13", "q": "What did he build as a freelancer?", "facts": ["Retool"]}
+{"id": "d14", "q": "How many ML projects did he migrate to AWS?", "facts": ["20"]}
+{"id": "d15", "q": "What is the experimentation framework he built?", "facts": ["golden Docker images"]}
+{"id": "d16", "q": "Did he work with PySpark?", "facts": ["PySpark"]}
+{"id": "d17", "q": "What dashboards has he built?", "facts": ["Power BI"]}
+{"id": "d18", "q": "skills?", "facts": ["Python"]}
+{"id": "d19", "q": "What cloud platforms does he know?", "facts": ["Azure", "AWS"]}
+{"id": "d20", "q": "Does he know Docker?", "facts": ["Docker"]}
+{"id": "d21", "q": "education", "facts": ["Hildesheim"]}
+{"id": "d22", "q": "Where did he do his master's?", "facts": ["Hildesheim"]}
+{"id": "d23", "q": "What did he study at the University of Colombo?", "facts": ["Applied Statistics"]}
+{"id": "d24", "q": "Is he still studying at Sri Jayewardenepura?", "facts": ["on hold"]}
+{"id": "d25", "q": "certifications", "facts": ["Machine Learning Engineer"]}
+{"id": "d26", "q": "Is he working on any other certification?", "facts": ["Solutions Architect"]}
+{"id": "d27", "q": "What online courses has he completed?", "facts": ["Data Science Methodology"]}
+{"id": "d28", "q": "achievements", "facts": ["ADL"]}
+{"id": "d29", "q": "What happened at the ADL AI Summit?", "facts": ["top-10"]}
+{"id": "d30", "q": "Tell me about the anomaly detection project", "facts": ["anomal"]}
+{"id": "d31", "q": "What does the spam detection project do?", "facts": ["spam"]}
+{"id": "d32", "q": "Explain the mall customer segmentation project", "facts": ["K-means"]}
+{"id": "d33", "q": "What is the hotel review project?", "facts": ["sentiment"]}
+{"id": "d34", "q": "What did he analyse in Hawaii?", "facts": ["real estate"]}
+{"id": "d35", "q": "What is the electricity project?", "facts": ["electricity prices"]}
+{"id": "d36", "q": "How many customers are in the churn dataset?", "facts": ["7,043"]}
+{"id": "d37", "q": "How often does the churn inference job run?", "facts": ["weekly"]}
+{"id": "d38", "q": "What is the conditional step pipeline?", "facts": ["threshold"]}
+{"id": "d39", "q": "What is the RMSE of the parking model?", "facts": ["2.11"]}
+{"id": "d40", "q": "When is parking demand highest?", "facts": ["10:00"]}
+{"id": "d41", "q": "How many road segments were in the parking data?", "facts": ["57"]}
+{"id": "d42", "q": "Which product categories does the price tracker cover?", "facts": ["GPUs"]}
+{"id": "d43", "q": "Where does the price tracker store its data?", "facts": ["Azure Blob"]}
+{"id": "d44", "q": "What is the F1 score of the SBERT matcher?", "facts": ["0.911"]}
+{"id": "d45", "q": "What does the RAG chatbot use for retrieval?", "facts": ["BM25"]}
+{"id": "d46", "q": "How is the ticket triage pipeline evaluated?", "facts": ["labelled"]}
+{"id": "d47", "q": "What does the GenAI repository contain?", "facts": ["ChromaDB"]}
+{"id": "d48", "q": "Which algorithm trains the thesis model?", "facts": ["REINFORCE"]}
+{"id": "d49", "q": "Who supervised his thesis?", "facts": ["Schmidt-Thieme"]}
+{"id": "d50", "q": "What is GRAFITI?", "facts": ["asynchronous"]}
+{"id": "d51", "q": "What was the Stax project?", "facts": ["restaurant"]}
+{"id": "d52", "q": "How much money did the HBB model save?", "facts": ["2 million"]}
+{"id": "d53", "q": "What is his email?", "facts": ["anuradha95dissanayake@gmail.com"]}
+{"id": "d54", "q": "Is he open to new opportunities?", "facts": ["open to"]}
+{"id": "d55", "q": "linkedin", "facts": ["linkedin"]}
+{"id": "d56", "q": "Does he speak German?", "expect": "unknown"}
+{"id": "d57", "q": "How old is he?", "expect": "unknown"}
+{"id": "d58", "q": "What is the capital of France?", "expect": "decline"}
+{"id": "d59", "q": "Tell me a story", "expect": "decline"}
+{"id": "d60", "q": "what were the results?", "history": ["Tell me about his master's thesis"], "facts": ["6.8%"]}
+{"id": "d61", "q": "and at Memodo?", "history": ["What did he do at Dialog Axiata?"], "facts": ["Memodo"]}
+{"id": "d62", "q": "which matching method was best?", "history": ["Tell me about the price tracker"], "facts": ["Sentence-Transformers"]}
+{"id": "d63", "q": "how does it save cost?", "history": ["What is the ticket triage pipeline?"], "facts": ["50%"]}
+{"id": "d64", "q": "what is his currnet role", "lead": ["Data Platform Engineer"]}
+{"id": "d65", "q": "certifcations?", "facts": ["Machine Learning Engineer"]}
+{"id": "d66", "q": "experiance at dialog", "facts": ["MLOps"]}
+{"id": "d67", "q": "where is he based", "facts": ["Hildesheim"]}
+{"id": "d68", "q": "What is his current role?", "lead": ["Data Platform Engineer"]}

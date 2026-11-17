@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lahiru Anuradha Dissanayake | Data Platform & MLOps Engineer</title>
+  <meta name="description" content="Portfolio of Lahiru Anuradha Dissanayake: Data Platform Engineer, MLOps consultant and GenAI builder. Research, projects and experience on AWS, Azure, ML pipelines, deep RL and LLM applications.">
+  <meta property="og:title" content="Lahiru Anuradha Dissanayake | Data Platform & MLOps Engineer">
+  <meta property="og:description" content="MLOps, data platforms, research and GenAI projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A5%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-loading">
+  <!-- Page loader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__ring"><span>LD</span></div>
+    <p>Igniting pipelines…</p>
+  </div>
+
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand"><span class="nav__logo">LD</span> Lahiru Dissanayake</a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#genai">GenAI</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <a class="btn btn--small btn--primary nav__resume" href="assets/Lahiru_Dissanayake_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark or light theme" title="Toggle theme">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="icon-btn nav__burger" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text" data-reveal-group>
+          <p class="eyebrow">Hildesheim, Germany · Data Platform Engineer @ Memodo</p>
+          <h1>Lahiru Anuradha<br><span class="gradient-text">Dissanayake</span></h1>
+          <p class="hero__role"><span class="typewriter" id="typewriter" data-words='["Data Platform Engineer","MLOps Consultant","GenAI Builder","ML Researcher"]'></span></p>
+          <p class="hero__lead">
+            I turn machine learning into dependable production systems. More than five and a half years building
+            data platforms, CI/CD for ML and LLM applications on AWS and Azure.
+          </p>
+          <ul class="hero__contact" aria-label="Contact">
+            <li><a href="mailto:anuradha95dissanayake@gmail.com">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              anuradha95dissanayake@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/anuradha-dissanayake-a33738181/" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-7M12 13a3 3 0 0 1 6 0v4"/></svg>
+              LinkedIn</a></li>
+          </ul>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#projects">View projects</a>
+            <a class="btn btn--ghost" href="assets/Lahiru_Dissanayake_Resume.pdf" download>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg> Download résumé
+            </a>
+            <a class="btn btn--ghost" href="#assistant">Ask my AI assistant</a>
+          </div>
+          <ul class="hero__stats" aria-label="Quick facts">
+            <li><strong data-counter="5.5">0</strong><span>years in industry</span></li>
+            <li><strong data-counter="20" data-suffix="+">0</strong><span>ML projects productionised</span></li>
+            <li><strong data-counter="44" data-suffix="%">0</strong><span>cloud spend cut</span></li>
+            <li><strong id="repoCount" data-counter="31">0</strong><span>public repositories</span></li>
+          </ul>
+        </div>
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="terminal tilt">
+            <div class="terminal__bar"><span></span><span></span><span></span><em>pipeline.yaml</em></div>
+            <pre class="terminal__body"><code id="terminalCode"></code></pre>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span></span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="section__num">01</span> About me</h2>
+        <div class="about__grid">
+          <div class="portrait reveal">
+            <div class="portrait__frame">
+              <div class="portrait__ring" aria-hidden="true"></div>
+              <img src="assets/profile.jpg" alt="Portrait of Lahiru Anuradha Dissanayake" width="640" height="640">
+            </div>
+            <span class="portrait__chip portrait__chip--a">☁️ AWS ML Engineer certified</span>
+            <span class="portrait__chip portrait__chip--b">🔥 5.5+ years MLOps</span>
+            <span class="portrait__chip portrait__chip--c">📍 Hildesheim, Germany</span>
+          </div>
+
+          <div class="about__text" data-reveal-group>
+            <p>
+              I'm an MLOps and ML engineering leader who has spent the last few years turning research notebooks into
+              dependable production systems. At <strong>Dialog Axiata</strong> I helped grow the MLOps function from two
+              people to more than ten engineers and built the CI/CD pipelines that moved 20+ ML projects, serving
+              millions of telecom customers, to AWS.
+            </p>
+            <p>
+              As a consultant I co-led an <strong>AI & Data Governance</strong> working group whose 11-criteria maturity
+              framework gated production approval, and ran cost-governance programmes that cut cloud spend by up to
+              44% while ML and LLM workloads kept growing.
+            </p>
+            <p>
+              Since November 2026 I'm a <strong>Data Platform Engineer at Memodo GmbH</strong>, owning the Azure data
+              platform end to end: Synapse and Fabric pipelines, access governance, model serving and the dashboards
+              business teams use every day. Alongside that I do research in deep reinforcement learning and time-series
+              forecasting, and build GenAI applications with a focus on evaluation, guardrails and cost control.
+            </p>
+            <div class="about__actions">
+              <a class="btn btn--primary" href="assets/Lahiru_Dissanayake_Resume.pdf" download>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg> Download résumé
+              </a>
+              <a class="btn btn--ghost" href="assets/Lahiru_Dissanayake_Resume.pdf" target="_blank" rel="noopener">View résumé</a>
+              <a class="btn btn--ghost" href="https://www.linkedin.com/in/anuradha-dissanayake-a33738181/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills" data-reveal-group>
+          <div class="skills__group">
+            <h3>Cloud & Platform</h3>
+            <div class="chips">
+              <span class="chip">AWS SageMaker</span><span class="chip">Azure Synapse</span><span class="chip">Microsoft Fabric</span>
+              <span class="chip">Snowflake</span><span class="chip">CloudFormation</span><span class="chip">IAM & Governance</span><span class="chip">FinOps</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <h3>MLOps & DevOps</h3>
+            <div class="chips">
+              <span class="chip">CI/CD</span><span class="chip">Docker</span><span class="chip">GitHub Actions</span><span class="chip">Azure DevOps</span>
+              <span class="chip">Flask / FastAPI</span><span class="chip">Feature Stores</span><span class="chip">Model Monitoring</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <h3>GenAI</h3>
+            <div class="chips">
+              <span class="chip">Claude API</span><span class="chip">RAG</span><span class="chip">Structured Outputs</span><span class="chip">Prompt Caching</span>
+              <span class="chip">LLM Evals</span><span class="chip">Guardrails</span><span class="chip">LangChain</span><span class="chip">ChromaDB</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <h3>Data & ML</h3>
+            <div class="chips">
+              <span class="chip">Python</span><span class="chip">PySpark</span><span class="chip">SQL</span><span class="chip">R</span><span class="chip">PyTorch</span>
+              <span class="chip">scikit-learn</span><span class="chip">Deep RL</span><span class="chip">Power BI</span><span class="chip">Tableau</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section--alt">
+      <div class="container container--narrow">
+        <h2 class="section__title reveal"><span class="section__num">02</span> Experience</h2>
+        <ol class="timeline" data-timeline>
+          <li class="timeline__item reveal">
+            <div class="timeline__meta"><time>Nov 2026 – Present</time><span class="badge badge--accent">Current</span></div>
+            <div class="timeline__head"><div class="co-logos"><span class="co-logo" title="Memodo"><img src="assets/companies/memodo.svg" alt="Memodo logo" loading="lazy"></span></div><h3>Data Platform Engineer<span>Memodo GmbH, Germany</span></h3></div>
+            <ul>
+              <li>Own the Azure data platform end to end: Synapse and Fabric pipelines, access governance, model serving and business dashboards.</li>
+              <li>Continue the competitor pricing intelligence and demand forecasting platforms built during the working-student role.</li>
+            </ul>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="timeline__meta"><time>Jan 2025 – Oct 2026</time></div>
+            <div class="timeline__head"><div class="co-logos"><span class="co-logo" title="Memodo"><img src="assets/companies/memodo.svg" alt="Memodo logo" loading="lazy"></span></div><h3>Working Student, Data & ML Engineering<span>Memodo GmbH, Germany</span></h3></div>
+            <ul>
+              <li>Built an automated competitor pricing intelligence solution on Azure (scraping, APIs, product matching, PySpark Fabric pipelines, Power BI) with CI/CD on Azure DevOps. Cut 2 to 3 days of manual work to 6 hours.</li>
+              <li>Deployed a Python conversational chatbot on Azure VMs so business users query live pricing data in natural language.</li>
+              <li>Led a 12-week product demand forecasting pipeline on Azure Synapse integrating Germany's solar registry, energy prices and sales data.</li>
+              <li>Go-to person for Azure infrastructure and IAM; proposed a Purview-based data governance framework.</li>
+            </ul>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="timeline__meta"><time>May 2023 – Apr 2024</time></div>
+            <div class="timeline__head"><div class="co-logos"><span class="co-logo" title="Dialog Axiata"><img src="assets/companies/dialog.svg" alt="Dialog Axiata logo" loading="lazy"></span></div><h3>Consultant, AI Factory<span>Dialog Axiata PLC, Sri Lanka</span></h3></div>
+            <ul>
+              <li>Co-led the AI & Data Governance working group: 11-criteria evaluation framework, documentation templates and maturity scoring that gated production migration.</li>
+              <li>Defined AWS cost-governance policies cutting monthly spend by 30% (Dev) and 44% (Prod), including a 17% SageMaker reduction.</li>
+              <li>Guided a custom Python library and CloudFormation automation for cross-account setups, improving lead time by 40%.</li>
+            </ul>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="timeline__meta"><time>Dec 2023 – Mar 2024</time></div>
+            <div class="timeline__head"><div class="co-logos"><span class="co-logo" title="Exazyme"><img src="assets/companies/exazyme.png" alt="Exazyme logo" loading="lazy"></span><span class="co-logo" title="Fcode Labs"><img src="assets/companies/fcode.png" alt="Fcode Labs logo" loading="lazy"></span></div><h3>DevOps Engineer / Coordinator<span>Exazyme, Germany · Fcode Labs, Sri Lanka</span></h3></div>
+            <ul>
+              <li>Standardised environments, Git hooks, documentation and CI/CD via GitHub Workflows; designed an AWS image-detection system with cost optimisation and disaster recovery.</li>
+            </ul>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="timeline__meta"><time>May 2021 – Apr 2023</time></div>
+            <div class="timeline__head"><div class="co-logos"><span class="co-logo" title="Dialog Axiata"><img src="assets/companies/dialog.svg" alt="Dialog Axiata logo" loading="lazy"></span></div><h3>MLOps Engineer, AI Factory<span>Dialog Axiata PLC, Sri Lanka</span></h3></div>
+            <ul>
+              <li>Founding member growing the MLOps team from 2 to 10+ engineers; led technical direction on most ML initiatives.</li>
+              <li>Migrated 20+ on-prem ML projects to AWS with CI/CD (Python, Snowflake, Docker, Flask), reducing data scientists' workload by 20%.</li>
+              <li>Built a config-driven experimentation framework and golden Docker images (DataBrew, AutoPilot, Experiments) cutting experimentation time by 40%.</li>
+              <li>Designed feature-store ingestion frameworks and PySpark pipelines on Snowflake orchestrated from SageMaker.</li>
+            </ul>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="timeline__meta"><time>Aug 2020 – Apr 2021</time></div>
+            <div class="timeline__head"><div class="co-logos"><span class="co-logo" title="Dialog Axiata"><img src="assets/companies/dialog.svg" alt="Dialog Axiata logo" loading="lazy"></span></div><h3>Data Analyst Intern<span>Dialog Axiata PLC, Sri Lanka</span></h3></div>
+            <ul>
+              <li>Built the home-broadband data exhaustion model (see Research) and a monthly Tableau sales dashboard for strategic planning.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="section__num">03</span> Research</h2>
+        <p class="section__lead reveal">Three pieces of work where the modelling was the hard part, from academic research to an applied model with measured business impact.</p>
+
+        <article class="research reveal">
+          <a class="research__media zoomable" href="assets/projects/tdtsp.gif" data-lightbox aria-label="Open thesis slides preview">
+            <img src="assets/projects/tdtsp.gif" alt="Slides from the thesis on deep reinforcement learning for the time-dependent TSP" loading="lazy">
+          </a>
+          <div class="research__body">
+            <p class="research__kicker">Master's thesis · University of Hildesheim · 2026</p>
+            <h3>Deep Reinforcement Learning for the Time-Dependent Travelling Salesman Problem</h3>
+            <p>
+              Route planning when travel times change with traffic through the day. I extended an attention-based
+              policy network with windowed, time-sliced traffic encoding, step-aware decoding and cost-aware gating,
+              trained with REINFORCE on real Beijing traffic data.
+            </p>
+            <div class="metrics">
+              <div class="metric"><strong>6.8%</strong><span>better tours than baselines</span></div>
+              <div class="metric"><strong>~97,000×</strong><span>faster inference than classical solvers</span></div>
+              <div class="metric"><strong>Real</strong><span>Beijing traffic data</span></div>
+            </div>
+            <div class="chips chips--small"><span class="chip">PyTorch</span><span class="chip">Attention</span><span class="chip">REINFORCE</span><span class="chip">Combinatorial optimisation</span></div>
+            <div class="research__links">
+              <a class="btn btn--small btn--primary" href="https://github.com/Data-Fenix/DRLSolver4DTSPEnhanced" target="_blank" rel="noopener">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="research research--flip reveal">
+          <a class="research__media zoomable" href="assets/research/grafiti.svg" data-lightbox aria-label="Open illustration">
+            <img src="assets/research/grafiti.svg" alt="Illustration: irregularly sampled time-series observations converted to a graph and used to forecast future values" loading="lazy">
+          </a>
+          <div class="research__body">
+            <p class="research__kicker">Co-authored research · ISMLL, University of Hildesheim</p>
+            <h3>Graphs for Forecasting Asynchronous Time Series</h3>
+            <p>
+              Real-world sensors rarely report on a common clock. This work represents irregularly sampled,
+              multi-channel series as a graph of observations and learns forecasts directly on it, without
+              imputing the gaps first.
+            </p>
+            <div class="metrics">
+              <div class="metric"><strong>10.48%</strong><span>forecast accuracy gain, up to</span></div>
+              <div class="metric"><strong>ICU</strong><span>patient monitoring datasets</span></div>
+              <div class="metric"><strong>Climate</strong><span>real-world sensor datasets</span></div>
+            </div>
+            <div class="chips chips--small"><span class="chip">Graph neural networks</span><span class="chip">Irregular time series</span><span class="chip">Forecasting</span></div>
+            <div class="research__links">
+              <a class="btn btn--small btn--primary" href="https://github.com/Data-Fenix/GRAFITI/blob/main/Graphs_for_Asynchronous_Time_Series_Forecasting.pdf" target="_blank" rel="noopener">Read the paper</a>
+              <a class="btn btn--small btn--ghost" href="https://github.com/Data-Fenix/GRAFITI" target="_blank" rel="noopener">Repository</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="research reveal">
+          <a class="research__media zoomable" href="assets/research/hbb.svg" data-lightbox aria-label="Open illustration">
+            <img src="assets/research/hbb.svg" alt="Illustration: home broadband data usage rising toward the quota with a seven-day prediction window" loading="lazy">
+          </a>
+          <div class="research__body">
+            <p class="research__kicker">Applied research · Dialog Axiata PLC · 2020 – 2021</p>
+            <h3>Predicting Home Broadband Data Exhaustion</h3>
+            <p>
+              A model that flags postpaid home-broadband customers who will run out of data within the next
+              seven days, so the business can reach them before the connection slows down. Built on Oracle SQL
+              feature pipelines and Python during my data analyst role.
+            </p>
+            <div class="metrics">
+              <div class="metric metric--hero"><strong>LKR 2M</strong><span>benefit through proactive management</span></div>
+              <div class="metric"><strong>7 days</strong><span>prediction horizon</span></div>
+              <div class="metric"><strong>SQL + Python</strong><span>Oracle SQL features, Python model</span></div>
+            </div>
+            <div class="chips chips--small"><span class="chip">Python</span><span class="chip">Oracle SQL</span><span class="chip">Classification</span><span class="chip">Telecom</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="section__num">04</span> Projects</h2>
+        <p class="section__lead reveal">A selection of my work. Filter by area, search, or open the full archive. Stars and update dates come live from GitHub.</p>
+        <div class="toolbar reveal">
+          <div class="filters" id="filters" role="tablist" aria-label="Project categories"></div>
+          <label class="search">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input type="search" id="search" placeholder="Search projects, e.g. SageMaker" aria-label="Search projects">
+          </label>
+        </div>
+        <p class="results-count" id="resultsCount" aria-live="polite"></p>
+        <div class="grid" id="projectGrid"></div>
+        <div class="more">
+          <button class="btn btn--primary btn--more" id="moreBtn" type="button" aria-expanded="false" aria-controls="projectGrid">
+            <span id="moreLabel">Explore all projects</span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GENAI -->
+    <section id="genai" class="section">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="section__num">05</span> GenAI engineering</h2>
+        <p class="section__lead reveal">
+          Two production-style LLM applications built on the Claude API. Both ship with tests, evaluation suites and CI,
+          because an LLM feature without an eval is a demo, not a product.
+        </p>
+        <div class="genai-grid">
+          <article class="genai-card tilt reveal">
+            <div class="genai-card__head">
+              <span class="genai-card__icon">💬</span>
+              <div><h3>Portfolio RAG Assistant</h3><p>Grounded chatbot over my projects, CV and READMEs</p></div>
+            </div>
+            <div class="arch">
+              <div class="arch__step">Question</div><span class="arch__arrow">→</span>
+              <div class="arch__step">Guardrails</div><span class="arch__arrow">→</span>
+              <div class="arch__step">Retrieval</div><span class="arch__arrow">→</span>
+              <div class="arch__step">Claude + tools</div><span class="arch__arrow">→</span>
+              <div class="arch__step">Cited answer</div>
+            </div>
+            <ul class="checklist">
+              <li>Retrieved documents are passed as untrusted data; the system prompt is served from the prompt cache.</li>
+              <li>Streaming responses over Server-Sent Events, with token usage and cost logged per request.</li>
+              <li>Tool use for structured lookups alongside semantic retrieval.</li>
+              <li>Retrieval hit-rate and LLM-as-judge faithfulness evals run in GitHub Actions.</li>
+            </ul>
+            <div class="genai-card__links">
+              <a class="btn btn--small" href="https://github.com/Data-Fenix/portfolio-rag-chatbot" target="_blank" rel="noopener">Source</a>
+              <a class="btn btn--small btn--ghost" href="#assistant">Try it now</a>
+            </div>
+          </article>
+          <article class="genai-card tilt reveal">
+            <div class="genai-card__head">
+              <span class="genai-card__icon">🗂️</span>
+              <div><h3>LLM Ticket Triage Pipeline</h3><p>Classification and extraction with schema-enforced outputs</p></div>
+            </div>
+            <div class="arch">
+              <div class="arch__step">Tickets</div><span class="arch__arrow">→</span>
+              <div class="arch__step">Prompt registry</div><span class="arch__arrow">→</span>
+              <div class="arch__step">Structured output</div><span class="arch__arrow">→</span>
+              <div class="arch__step">Batch API</div><span class="arch__arrow">→</span>
+              <div class="arch__step">Eval gate</div>
+            </div>
+            <ul class="checklist">
+              <li>Pydantic schemas enforced by the API, so every record is valid JSON with typed fields.</li>
+              <li>Versioned prompts; a change ships only if accuracy stays above the gate.</li>
+              <li>Message Batches for bulk runs at half the cost, with per-run cost reports.</li>
+              <li>Streamlit review UI, labelled dataset and confusion-matrix evaluation.</li>
+            </ul>
+            <div class="genai-card__links">
+              <a class="btn btn--small" href="https://github.com/Data-Fenix/llm-ticket-triage" target="_blank" rel="noopener">Source</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section section--alt">
+      <div class="container container--narrow">
+        <h2 class="section__title reveal"><span class="section__num">06</span> Education</h2>
+        <ol class="timeline timeline--edu" data-timeline>
+          <li class="timeline__item reveal">
+            <div class="edu-card">
+              <span class="edu-card__logo"><img src="assets/education/hildesheim.svg" alt="University of Hildesheim logo" loading="lazy"></span>
+              <div>
+                <h3>M.Sc. International Master's Program in Data Analytics</h3>
+                <p class="edu-card__school"><a href="https://www.uni-hildesheim.de/en/" target="_blank" rel="noopener">University of Hildesheim, Germany</a> · Apr 2023 – Jun 2026</p>
+                <p>Thesis on deep reinforcement learning for the time-dependent travelling salesman problem. Co-authored research on asynchronous time-series forecasting at ISMLL.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="edu-card">
+              <span class="edu-card__logo"><img src="assets/education/jayewardenepura.png" alt="University of Sri Jayewardenepura crest" loading="lazy"></span>
+              <div>
+                <h3>M.Sc. Data Science and Artificial Intelligence</h3>
+                <p class="edu-card__school"><a href="https://www.sjp.ac.lk/" target="_blank" rel="noopener">University of Sri Jayewardenepura, Sri Lanka</a> · Jan 2022 – on hold</p>
+                <p>Currently on hold.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <div class="edu-card">
+              <span class="edu-card__logo"><img src="assets/education/colombo.png" alt="University of Colombo crest" loading="lazy"></span>
+              <div>
+                <h3>B.Sc. Applied Statistics</h3>
+                <p class="edu-card__school"><a href="https://cmb.ac.lk/" target="_blank" rel="noopener">University of Colombo, Sri Lanka</a> · Feb 2017 – Apr 2021</p>
+                <p>The statistical foundation behind my modelling and experimentation work.</p>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="section__num">07</span> Certifications & credentials</h2>
+        <p class="section__lead reveal">Continuous learning, verified. Each credential links to its issuer.</p>
+        <div class="cert-grid" data-reveal-group>
+          <article class="cert cert--featured tilt">
+            <a class="cert__badge-img zoomable" href="assets/certs/aws-ml-engineer.png" data-lightbox data-caption="AWS Certified Machine Learning Engineer – Associate" aria-label="Open badge">
+              <img src="assets/certs/aws-ml-engineer.png" alt="AWS Certified Machine Learning Engineer – Associate badge" width="340" height="340">
+            </a>
+            <div class="cert__body">
+              <span class="badge badge--accent">Featured</span>
+              <h3>AWS Certified Machine Learning Engineer – Associate</h3>
+              <p>Amazon Web Services · MLA-C01</p>
+              <a class="cert__verify" href="https://www.credly.com/badges/81037651-781d-4fec-a980-2da3acb410fe/linked_in?t=tjwoxa" target="_blank" rel="noopener">Verify on Credly ↗</a>
+              <p class="cert__next"><span class="badge">In progress</span> AWS Certified Solutions Architect – Associate</p>
+            </div>
+          </article>
+          <article class="cert tilt">
+            <a class="cert__media zoomable" href="assets/certs/machine-learning.jpg" data-lightbox data-caption="Machine Learning · Stanford Online · Coursera" aria-label="Open certificate: Machine Learning">
+              <img src="assets/certs/machine-learning.jpg" alt="Certificate: Machine Learning, Stanford Online · Coursera" loading="lazy">
+            </a>
+            <div class="cert__body">
+              <h3>Machine Learning</h3>
+              <p>Stanford Online · Coursera</p>
+              <a class="cert__verify" href="https://www.coursera.org/account/accomplishments/verify/75MLYBT4LZ6X" target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </article>
+          <article class="cert tilt">
+            <a class="cert__media zoomable" href="assets/certs/data-analysis-python.jpg" data-lightbox data-caption="Data Analysis with Python · IBM · Coursera" aria-label="Open certificate: Data Analysis with Python">
+              <img src="assets/certs/data-analysis-python.jpg" alt="Certificate: Data Analysis with Python, IBM · Coursera" loading="lazy">
+            </a>
+            <div class="cert__body">
+              <h3>Data Analysis with Python</h3>
+              <p>IBM · Coursera</p>
+              <a class="cert__verify" href="https://www.coursera.org/account/accomplishments/verify/NGKESR5T3MGH" target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </article>
+          <article class="cert tilt">
+            <a class="cert__media zoomable" href="assets/certs/data-science-methodology.jpg" data-lightbox data-caption="Data Science Methodology · IBM · Coursera" aria-label="Open certificate: Data Science Methodology">
+              <img src="assets/certs/data-science-methodology.jpg" alt="Certificate: Data Science Methodology, IBM · Coursera" loading="lazy">
+            </a>
+            <div class="cert__body">
+              <h3>Data Science Methodology</h3>
+              <p>IBM · Coursera</p>
+              <a class="cert__verify" href="https://www.coursera.org/account/accomplishments/verify/NH7R8JLETL44" target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </article>
+          <article class="cert tilt">
+            <a class="cert__media zoomable" href="assets/certs/data-driven-decision-making.jpg" data-lightbox data-caption="Data-driven Decision Making · PwC · Coursera" aria-label="Open certificate: Data-driven Decision Making">
+              <img src="assets/certs/data-driven-decision-making.jpg" alt="Certificate: Data-driven Decision Making, PwC · Coursera" loading="lazy">
+            </a>
+            <div class="cert__body">
+              <h3>Data-driven Decision Making</h3>
+              <p>PwC · Coursera</p>
+              <a class="cert__verify" href="https://www.coursera.org/account/accomplishments/verify/T59E2NHEMQGB" target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </article>
+          <article class="cert tilt">
+            <a class="cert__media zoomable" href="assets/certs/python3-udemy.jpg" data-lightbox data-caption="The Complete Python 3 Course: Beginner to Advanced · Udemy" aria-label="Open certificate: The Complete Python 3 Course: Beginner to Advanced">
+              <img src="assets/certs/python3-udemy.jpg" alt="Certificate: The Complete Python 3 Course: Beginner to Advanced, Udemy" loading="lazy">
+            </a>
+            <div class="cert__body">
+              <h3>The Complete Python 3 Course: Beginner to Advanced</h3>
+              <p>Udemy</p>
+              <a class="cert__verify" href="https://www.udemy.com/certificate/UC-8c204ec1-ece2-4b55-9e54-49ed8b9a0878/" target="_blank" rel="noopener">Verify ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="subhead reveal">Achievements</h3>
+        <div class="achieve-grid" data-reveal-group>
+          <a class="achieve" href="https://aws.amazon.com/events/summits/india/" target="_blank" rel="noopener"><span>🎤</span><h4>AWS Summit India 2022</h4><p>Presented the prepaid churn model I developed.</p></a>
+          <a class="achieve" href="https://aisummit.axiatadigitallabs.com/" target="_blank" rel="noopener"><span>🏆</span><h4>ADL AI Summit 2022</h4><p>Selected as one of the top-10 international teams.</p></a>
+          <a class="achieve" href="https://aws.amazon.com/blogs/apn/aws-gameday-a-day-with-unicorn-rentals-is-time-well-spent-for-your-business/" target="_blank" rel="noopener"><span>🦄</span><h4>AWS AI/ML GameDay</h4><p>Built the ML workflow solution for Unicorn Rentals.</p></a>
+          <a class="achieve" href="https://www.linkedin.com/feed/update/urn:li:activity:6976473720122994688/" target="_blank" rel="noopener"><span>🧑‍🏫</span><h4>AWS Workshops & Xthon</h4><p>Ran hands-on AWS workshops and judged a hackathon.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <h2 class="section__title reveal"><span class="section__num">08</span> Let's talk</h2>
+        <p class="section__lead reveal">Open to data platform, MLOps and GenAI engineering conversations.</p>
+        <div class="contact__links reveal">
+          <a class="btn btn--primary" href="mailto:anuradha95dissanayake@gmail.com">Email me</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/anuradha-dissanayake-a33738181/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="https://github.com/Data-Fenix" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn--ghost" href="assets/Lahiru_Dissanayake_Resume.pdf" download>Download résumé</a>
+        </div>
+        <p class="contact__mail reveal">anuradha95dissanayake@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Lahiru Anuradha Dissanayake</span>
+      <span>Built by hand with HTML, CSS and a little canvas.</span>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg></button>
+
+  <!-- Floating AI assistant -->
+  <button class="chat-fab" id="chatFab" aria-label="Open AI assistant" aria-expanded="false" aria-controls="chatPanel">
+    <svg class="icon chat-fab__open" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M9 11h.01M12 11h.01M15 11h.01"/></svg>
+    <svg class="icon chat-fab__close" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    <span class="chat-fab__hint" id="chatHint">Ask my AI assistant</span>
+  </button>
+  <section class="chat-panel" id="chatPanel" role="dialog" aria-label="AI assistant" aria-hidden="true">
+    <header class="chat-panel__head">
+      <span class="chat-panel__avatar">LD</span>
+      <div>
+        <strong>Lahiru's AI assistant</strong>
+        <span id="assistantStatus" class="status status--off">Checking backend…</span>
+      </div>
+      <button class="chat-panel__close" id="chatClose" aria-label="Close assistant">✕</button>
+    </header>
+    <div class="chat__log" id="chatLog" aria-live="polite">
+      <div class="msg msg--bot"><div class="msg__bubble">Hi, I'm Lahiru's portfolio assistant. Ask me about his MLOps work, the research or the GenAI projects. I answer from his portfolio and cite my sources.</div></div>
+    </div>
+    <div class="chat__suggestions" id="chatSuggestions">
+      <button type="button">What did Lahiru do at Dialog Axiata?</button>
+      <button type="button">Tell me about the deep RL research</button>
+      <button type="button">Which projects use AWS SageMaker?</button>
+    </div>
+    <form class="chat__form" id="chatForm">
+      <input type="text" id="chatInput" placeholder="Ask about my work…" maxlength="500" autocomplete="off" aria-label="Your question">
+      <button type="submit" class="btn btn--primary btn--small" id="chatSend" aria-label="Send">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12 20 4l-6 16-3-7z"/></svg>
+      </button>
+    </form>
+    <p class="chat__note">Answers are grounded in my portfolio and cite their sources. <a href="https://github.com/Data-Fenix/portfolio-rag-chatbot" target="_blank" rel="noopener">How it works ↗</a></p>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close preview">✕</button>
+    <img id="lightboxImg" alt="">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/projects.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/knowledge.js"></script>
+  <script src="js/assistant-offline.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

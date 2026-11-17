@@ -1,0 +1,40 @@
+{"id": "h101", "q": "How long has he been working in the industry?", "facts": ["five and a half"]}
+{"id": "h102", "q": "What's Lahiru's position at Memodo?", "lead": ["Data Platform Engineer"]}
+{"id": "h103", "q": "Which company does he currently work for?", "lead": ["Memodo"]}
+{"id": "h104", "q": "Where did he work before Memodo?", "facts": ["Dialog"]}
+{"id": "h105", "q": "What was the impact of his CI/CD pipelines at Dialog?", "facts": ["20%"]}
+{"id": "h106", "q": "How much faster was experimentation after his framework?", "facts": ["40%"]}
+{"id": "h107", "q": "Tell me about the order approval dashboard", "facts": ["Fabric"]}
+{"id": "h108", "q": "What data sources did the demand forecasting use?", "facts": ["solar"]}
+{"id": "h109", "q": "What is his background in statistics?", "facts": ["Applied Statistics"]}
+{"id": "h110", "q": "What tools does he use for visualisation?", "facts": ["Tableau"]}
+{"id": "h111", "q": "Does he have experience with Azure?", "facts": ["Azure"]}
+{"id": "h112", "q": "Which ML frameworks does he use?", "facts": ["PyTorch"]}
+{"id": "h113", "q": "What is the parking project's MAE?", "facts": ["1.04"]}
+{"id": "h114", "q": "Which algorithm was used for parking prediction?", "facts": ["Random Forest"]}
+{"id": "h115", "q": "How many observations does the parking dataset have?", "facts": ["1.25"]}
+{"id": "h116", "q": "What does the potato project classify?", "facts": ["Late Blight"]}
+{"id": "h117", "q": "How does the triage pipeline guarantee valid JSON?", "facts": ["Pydantic"]}
+{"id": "h118", "q": "What does the RAG assistant log?", "facts": ["cost"]}
+{"id": "h119", "q": "What is the time-dependent TSP?", "facts": ["traffic"]}
+{"id": "h120", "q": "How much better are the TSP solutions?", "facts": ["6.8%"]}
+{"id": "h121", "q": "What accuracy improvement did the graph forecasting research achieve?", "facts": ["10.48%"]}
+{"id": "h122", "q": "Where did he present the prepaid churn model?", "facts": ["AWS Summit India"]}
+{"id": "h123", "q": "What did he do at the AWS GameDay?", "facts": ["Unicorn Rentals"]}
+{"id": "h124", "q": "Has he judged any hackathons?", "facts": ["Xthon"]}
+{"id": "h125", "q": "What is his LinkedIn?", "facts": ["linkedin"]}
+{"id": "h126", "q": "Is he certified as an AWS Solutions Architect?", "facts": ["in progress"]}
+{"id": "h127", "q": "What is his master's degree in?", "facts": ["Data Analytics"]}
+{"id": "h128", "q": "When did he finish his bachelor's?", "facts": ["2021"]}
+{"id": "h129", "q": "What did he standardise at Exazyme?", "facts": ["Git hooks"]}
+{"id": "h130", "q": "How did he help the data scientists at Dialog?", "facts": ["20%"]}
+{"id": "h131", "q": "What is his GitHub?", "facts": ["github.com/Data-Fenix"]}
+{"id": "h132", "q": "What is his favourite movie?", "expect": "unknown"}
+{"id": "h133", "q": "How tall is he?", "expect": "unknown"}
+{"id": "h134", "q": "Write me an essay about AI", "expect": "refuse"}
+{"id": "h135", "q": "which features were used?", "history": ["Tell me about the smart car parking project"], "facts": ["weather"]}
+{"id": "h136", "q": "where was it done?", "history": ["Tell me about his time series forecasting research"], "facts": ["ISMLL"]}
+{"id": "h137", "q": "skils", "facts": ["Python"]}
+{"id": "h138", "q": "wat projects use azure", "facts": ["Azure"]}
+{"id": "h139", "q": "What is Data Fenix?", "facts": ["GitHub"]}
+{"id": "h140", "q": "How many years has he worked in MLOps?", "facts": ["five and a half"]}

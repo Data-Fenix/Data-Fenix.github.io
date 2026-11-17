@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#1a2444"/></linearGradient>
+  <radialGradient id="glow" cx="0.75" cy="0.2" r="0.7"><stop offset="0" stop-color="#ffb547" stop-opacity="0.35"/><stop offset="1" stop-color="#ffb547" stop-opacity="0"/></radialGradient>
+  <linearGradient id="ember" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7a45"/><stop offset="1" stop-color="#ffb547"/></linearGradient>
+  
+</defs>
+<style>text{font-family:'JetBrains Mono',ui-monospace,Consolas,monospace}</style>
+<rect width="800" height="450" fill="url(#bg)"/>
+<g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"><path d="M0 0V450" /><path d="M40 0V450" /><path d="M80 0V450" /><path d="M120 0V450" /><path d="M160 0V450" /><path d="M200 0V450" /><path d="M240 0V450" /><path d="M280 0V450" /><path d="M320 0V450" /><path d="M360 0V450" /><path d="M400 0V450" /><path d="M440 0V450" /><path d="M480 0V450" /><path d="M520 0V450" /><path d="M560 0V450" /><path d="M600 0V450" /><path d="M640 0V450" /><path d="M680 0V450" /><path d="M720 0V450" /><path d="M760 0V450" /><path d="M0 0H800" /><path d="M0 40H800" /><path d="M0 80H800" /><path d="M0 120H800" /><path d="M0 160H800" /><path d="M0 200H800" /><path d="M0 240H800" /><path d="M0 280H800" /><path d="M0 320H800" /><path d="M0 360H800" /><path d="M0 400H800" /><path d="M0 440H800" /></g>
+<rect width="800" height="450" fill="url(#glow)"/>
+<polygon points="520,270 550,275 580,260 610,223 640,182 670,160 700,161 700,249 670,238 640,250 610,281 580,308 550,313 520,298" fill="#ffb547" fill-opacity="0.15"/><polyline points="70.0,240.0 100.0,287.5 130.0,298.7 160.0,283.6 190.0,278.7 220.0,290.5 250.0,286.1 280.0,244.6 310.0,193.3 340.0,174.5 370.0,190.1 400.0,204.2 430.0,198.1 460.0,197.6 490.0,231.5 520.0,283.9" fill="none" stroke="#5aa9ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><polyline points="520.0,283.9 550.0,293.8 580.0,283.6 610.0,251.6 640.0,216.2 670.0,199.0 700.0,204.6" fill="none" stroke="#ffb547" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 6"/><path d="M70 360H730M70 360V90" stroke="#8a97b0" stroke-opacity="0.5" stroke-width="2"/><path d="M520 90V360" stroke="#8a97b0" stroke-dasharray="4 6"/><path d="M640 70l-46 78h36l-16 62 56-86h-38z" fill="url(#ember)"/><text x="70" y="410" fill="#5aa9ff" font-size="15" font-weight="600" text-anchor="start">history</text><text x="540" y="410" fill="#ffb547" font-size="15" font-weight="600" text-anchor="start">forecast</text>
+</svg>

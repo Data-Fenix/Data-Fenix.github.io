@@ -1,0 +1,30 @@
+{"id": "b01", "q": "What does Lahiru do?", "facts": ["Data Platform Engineer"]}
+{"id": "b02", "q": "Years of experience?", "facts": ["five and a half"]}
+{"id": "b03", "q": "What is his experience with Snowflake?", "facts": ["Snowflake"]}
+{"id": "b04", "q": "What did he do with SageMaker?", "facts": ["SageMaker"]}
+{"id": "b05", "q": "How much did he cut AWS spend in production?", "facts": ["44%"]}
+{"id": "b06", "q": "What is the title of his thesis?", "facts": ["Windowed Encoding"]}
+{"id": "b07", "q": "Which university did he do his masters at?", "facts": ["Hildesheim"]}
+{"id": "b08", "q": "What's the accuracy of the smart parking model?", "facts": ["0.916"]}
+{"id": "b09", "q": "What is the MAE of the parking model?", "facts": ["1.04"]}
+{"id": "b10", "q": "Which websites does the price tracker scrape?", "facts": ["eBay"]}
+{"id": "b11", "q": "What dashboards did he build at Dialog?", "facts": ["Tableau"]}
+{"id": "b12", "q": "Does he have Power BI experience?", "facts": ["Power BI"]}
+{"id": "b13", "q": "What is the LLM ticket triage project?", "facts": ["support tickets"]}
+{"id": "b14", "q": "Which model does the portfolio assistant use?", "facts": ["Claude"]}
+{"id": "b15", "q": "What dataset does the potato leaf disease project use?", "facts": ["PlantVillage"]}
+{"id": "b16", "q": "How did the governance group decide on production approval?", "facts": ["maturity"]}
+{"id": "b17", "q": "What did he do for Exazyme and Fcode Labs?", "facts": ["DevOps"]}
+{"id": "b18", "q": "Where did he grow up?", "expect": "unknown"}
+{"id": "b19", "q": "What is his research about?", "facts": ["reinforcement"]}
+{"id": "b20", "q": "What hours does the parking data cover?", "facts": ["06:00"]}
+{"id": "b21", "q": "How many products are in the price tracker catalogue?", "facts": ["125"]}
+{"id": "b22", "q": "Which ML project uses XGBoost?", "facts": ["churn"]}
+{"id": "b23", "q": "How big is the churn dataset?", "facts": ["7,043"]}
+{"id": "b24", "q": "and what did he build there?", "history": ["Tell me about his work at Fcode Labs"], "facts": ["image detection"]}
+{"id": "b25", "q": "what metrics did it reach?", "history": ["Tell me about the smart car parking project"], "facts": ["0.916"]}
+{"id": "b26", "q": "and the inference speed?", "history": ["What is his master's thesis about?"], "facts": ["97,000"]}
+{"id": "b27", "q": "Is he good at Python?", "facts": ["Python"]}
+{"id": "b28", "q": "What languages does he program in?", "facts": ["Python"]}
+{"id": "b29", "q": "What's the weather today?", "expect": "decline"}
+{"id": "b30", "q": "Recommend me a laptop to buy", "expect": "decline"}
